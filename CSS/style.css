@@ -1,0 +1,53 @@
+/* Applying border-box to all element */
+html {
+    box-sizing: border-box;
+}
+
+/* inherit border-box on all elements in the universe and before and after */
+*,*:before,*:after{
+    box-sizing: inherit;
+    font-family: sans-serif,arial;
+}  
+
+/* styling wrapper class */
+.wrapper{
+    width: 100%;
+    height: auto;
+}
+
+/* styling form */
+
+form{
+    background-color: #F5F5F6;
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px 50px;
+}
+
+.form-title{
+    color: #2C2E30;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.form-field label{
+    display: block;
+    padding: 5px 0;
+}
+
+small{
+    display: block;
+    padding: 5px 0;
+}
+
+input{
+    width: 100%;
+    padding: 8px 10px;
+    outline: none;
+}
+
+button{
+    padding: 8px 15px;
+}
